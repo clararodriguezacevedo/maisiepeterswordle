@@ -2,11 +2,11 @@ export const GAME_TITLE = 'Maisie Peters Wordle'
 
 export const WIN_MESSAGES = [
   'Gorgeous gorgeous girls play like you do',
-  'Feral',
+  'YOU my friend are feral',
   'You guessed the silly little word! Now go stream YSUFT',
 ]
 export const GAME_COPIED_MESSAGE =
-  'Game copied to clipboard. Now go tag Maisie and @claralovesswift on Twitter'
+  'Game copied to clipboard. Tag @maisiehpeters and @claralovesswift on Twitter'
 export const NOT_ENOUGH_LETTERS_MESSAGE =
   'Thats not five letters, sorry to dissapoint!'
 export const WORD_NOT_FOUND_MESSAGE = 'Word not found'

@@ -23,7 +23,17 @@ export const Navbar = ({
           className="h-6 w-6 mr-2 cursor-pointer dark:stroke-white"
           onClick={() => setIsInfoModalOpen(true)}
         />
-        <p className="text-xl ml-2.5 font-bold dark:text-white">{GAME_TITLE}</p>
+
+        <img
+          alt="maisie peters wordle logo"
+          src="https://cdn.ecommercedns.uk/files/7/246127/7/17251887/maisie-peters-logo-white.png"
+          style={{
+            height: '4.5rem',
+            filter:
+              'invert(86%) sepia(100%) saturate(5177%) hue-rotate(355deg) brightness(95%) contrast(91%)',
+          }}
+        />
+
         <div className="right-icons">
           <ChartBarIcon
             className="h-6 w-6 mr-3 cursor-pointer dark:stroke-white"

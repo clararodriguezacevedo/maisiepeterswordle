@@ -58,8 +58,11 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        This is an open source version of the word guessing game we all know and
-        love -{' '}
+        This is a custom-made version of Wordle inspired by the MPCU (Maisie
+        Peters Cinematographical Universe). Contact @claralovesswift on Twitter
+        for any word suggestions, complaints, or bug reports. This was based on
+        the open-source repository by the ultra mega talented girlboss Hannah
+        Park. You can{' '}
         <a
           href="https://github.com/cwackerfuss/react-wordle"
           className="underline font-bold"
